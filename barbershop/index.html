@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ТОПОР — барбершоп в Москве</title>
+  <meta name="description" content="Мужские стрижки, борода и королевское бритьё в центре Москвы. Работаем по записи. Ежедневно с 10:00 до 22:00.">
+  <meta name="theme-color" content="#0b0b0c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b0b0c'/%3E%3Ctext x='16' y='23' font-family='Arial' font-size='19' font-weight='700' fill='%23c9a227' text-anchor='middle'%3EТ%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="logo" href="#top" aria-label="ТОПОР — на главную">
+        ТОПОР<span>.</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#gallery">Работы</a>
+        <a href="#masters">Мастера</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="header__actions">
+        <a class="header__phone" href="tel:+79991234567">+7 999 123-45-67</a>
+        <a class="btn btn--gold header__cta" href="#booking">Записаться</a>
+        <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__media">
+        <img src="assets/hero.jpg" alt="Клиенты барбершопа ТОПОР после стрижки" fetchpriority="high">
+      </div>
+      <div class="container hero__content">
+        <p class="eyebrow">Барбершоп · Москва · с 2019 года</p>
+        <h1>Стрижка,<br>которая держит форму</h1>
+        <p class="hero__lead">
+          Мужские стрижки, борода и королевское бритьё.
+          Работаем по записи — без очередей и суеты.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--gold" href="#booking">Записаться</a>
+          <a class="btn btn--ghost" href="#services">Смотреть прайс</a>
+        </div>
+        <dl class="hero__meta">
+          <div>
+            <dt>Ежедневно</dt>
+            <dd>10:00 — 22:00</dd>
+          </div>
+          <div>
+            <dt>Адрес</dt>
+            <dd>Покровка, 12</dd>
+          </div>
+          <div>
+            <dt>Запись</dt>
+            <dd>за 5 минут</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Мужские стрижки</span><i></i>
+        <span>Борода</span><i></i>
+        <span>Королевское бритьё</span><i></i>
+        <span>Камуфляж седины</span><i></i>
+        <span>Детские стрижки</span><i></i>
+        <span>Мужские стрижки</span><i></i>
+        <span>Борода</span><i></i>
+        <span>Королевское бритьё</span><i></i>
+        <span>Камуфляж седины</span><i></i>
+        <span>Детские стрижки</span><i></i>
+      </div>
+    </div>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__num">01 / Услуги</p>
+          <h2>Что делаем</h2>
+          <p class="section__lead">Честные цены без «от» и звёздочек. В стоимость входит мытьё, укладка и советы по уходу.</p>
+        </div>
+
+        <ul class="price-list">
+          <li class="price reveal">
+            <div>
+              <h3>Мужская стрижка</h3>
+              <p>Форма, которую легко уложить. Мытьё, укладка, уход.</p>
+            </div>
+            <span class="price__value">2 500 ₽</span>
+          </li>
+          <li class="price reveal">
+            <div>
+              <h3>Стрижка + борода</h3>
+              <p>Полный образ за один визит. Выгоднее на 500 ₽.</p>
+            </div>
+            <span class="price__value">3 800 ₽</span>
+          </li>
+          <li class="price reveal">
+            <div>
+              <h3>Борода и усы</h3>
+              <p>Контур, форма, горячее полотенце.</p>
+            </div>
+            <span class="price__value">1 800 ₽</span>
+          </li>
+          <li class="price reveal">
+            <div>
+              <h3>Королевское бритьё</h3>
+              <p>Опасная бритва, горячий компресс, уход после.</p>
+            </div>
+            <span class="price__value">2 200 ₽</span>
+          </li>
+          <li class="price reveal">
+            <div>
+              <h3>Камуфляж седины</h3>
+              <p>Естественный тон без эффекта краски.</p>
+            </div>
+            <span class="price__value">1 500 ₽</span>
+          </li>
+          <li class="price reveal">
+            <div>
+              <h3>Детская стрижка</h3>
+              <p>До 12 лет. Спокойно, быстро, с мультиком.</p>
+            </div>
+            <span class="price__value">1 800 ₽</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--tight" id="gallery">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__num">02 / Работы</p>
+          <h2>Как это выглядит</h2>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery__item gallery__item--wide reveal">
+            <img src="assets/cut.jpg" alt="Барбер стрижёт клиента ножницами и расчёской" loading="lazy">
+            <figcaption>Фейд и текстура</figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <img src="assets/beard.jpg" alt="Стрижка и оформление бороды в барбершопе" loading="lazy">
+            <figcaption>Борода и контур</figcaption>
+          </figure>
+          <div class="gallery__note reveal">
+            <p class="gallery__quote">«Хорошая стрижка не требует укладки по утрам. Она просто держит форму».</p>
+            <p class="gallery__author">Артём Волков, топ-барбер</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="masters">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__num">03 / Мастера</p>
+          <h2>Кто стрижёт</h2>
+        </div>
+
+        <div class="masters">
+          <article class="master reveal">
+            <div class="master__avatar" aria-hidden="true">АВ</div>
+            <h3>Артём Волков</h3>
+            <p class="master__role">Топ-барбер · 8 лет</p>
+            <p>Классика, фейды, работа с формой и плотными волосами.</p>
+          </article>
+          <article class="master reveal">
+            <div class="master__avatar" aria-hidden="true">ИК</div>
+            <h3>Илья Ким</h3>
+            <p class="master__role">Барбер · 5 лет</p>
+            <p>Текстурные стрижки, азиатские техники, укладка.</p>
+          </article>
+          <article class="master reveal">
+            <div class="master__avatar" aria-hidden="true">МО</div>
+            <h3>Максим Орлов</h3>
+            <p class="master__role">Барбер · 4 года</p>
+            <p>Борода, бритьё, уход и восстановление кожи.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--surface" id="reviews">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__num">04 / Отзывы</p>
+          <h2>Что говорят</h2>
+        </div>
+
+        <div class="reviews">
+          <blockquote class="review reveal">
+            <p>«Хожу третий год. Ни разу не было «подстригли короче, чем просил». Записываюсь за день, прихожу — ждать не нужно».</p>
+            <footer>Дмитрий, 34</footer>
+          </blockquote>
+          <blockquote class="review reveal">
+            <p>«Наконец-то нашли мастера, который понимает, что делать с моей бородой. Отдельное спасибо за горячее полотенце».</p>
+            <footer>Антон, 29</footer>
+          </blockquote>
+          <blockquote class="review reveal">
+            <p>«Записался онлайн за две минуты, пришёл — встретили по имени. Мелочь, а приятно. И стрижка отличная».</p>
+            <footer>Сергей, 41</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="booking">
+      <div class="container booking">
+        <div class="booking__text">
+          <p class="section__num">05 / Запись</p>
+          <h2>Запись за 5 минут</h2>
+          <p>
+            Оставьте имя, телефон и удобное время. Мы свяжемся,
+            подтвердим запись и подскажем, к какому мастеру лучше.
+          </p>
+          <ul class="booking__points">
+            <li>Без предоплаты</li>
+            <li>Можно перенести за 3 часа</li>
+            <li>Напомним в день визита</li>
+          </ul>
+          <p class="booking__note">
+            Или позвоните:
+            <a href="tel:+79991234567">+7 999 123-45-67</a>
+          </p>
+        </div>
+
+        <form class="form" id="booking-form" novalidate>
+          <div class="field">
+            <label for="name">Имя</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="Как к вам обращаться" required>
+          </div>
+          <div class="field">
+            <label for="phone">Телефон</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+7 999 000-00-00" required>
+          </div>
+          <div class="field">
+            <label for="service">Услуга</label>
+            <select id="service" name="service" required>
+              <option value="" selected disabled>Выберите услугу</option>
+              <option>Мужская стрижка — 2 500 ₽</option>
+              <option>Стрижка + борода — 3 800 ₽</option>
+              <option>Борода и усы — 1 800 ₽</option>
+              <option>Королевское бритьё — 2 200 ₽</option>
+              <option>Камуфляж седины — 1 500 ₽</option>
+              <option>Детская стрижка — 1 800 ₽</option>
+            </select>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="date">Дата</label>
+              <input id="date" name="date" type="date" required>
+            </div>
+            <div class="field">
+              <label for="time">Время</label>
+              <input id="time" name="time" type="time" min="10:00" max="21:30" required>
+            </div>
+          </div>
+          <button class="btn btn--gold btn--full" type="submit">Отправить заявку</button>
+          <p class="form__hint" id="form-status" role="status">
+            Нажимая кнопку, вы соглашаетесь на обработку персональных данных.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section--tight" id="contacts">
+      <div class="container contacts">
+        <div class="contacts__card reveal">
+          <p class="section__num">06 / Контакты</p>
+          <h2>Как нас найти</h2>
+          <address>
+            Москва, ул. Покровка, 12<br>
+            вход со двора, второй этаж
+          </address>
+          <p class="contacts__hours">Ежедневно с 10:00 до 22:00</p>
+          <div class="contacts__links">
+            <a href="tel:+79991234567">+7 999 123-45-67</a>
+            <a href="https://t.me/topor_barber" target="_blank" rel="noopener">Telegram</a>
+            <a href="https://wa.me/79991234567" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="map reveal" role="img" aria-label="Схема расположения: Покровка, 12">
+          <div class="map__grid"></div>
+          <div class="map__pin"><span>ТОПОР</span></div>
+          <a class="map__link" href="https://yandex.ru/maps/?text=Москва, Покровка, 12" target="_blank" rel="noopener">Открыть в Яндекс.Картах</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a class="logo logo--small" href="#top">ТОПОР<span>.</span></a>
+      <p>© <span id="year">2026</span> Барбершоп ТОПОР. Стрижки, борода, бритьё.</p>
+      <div class="footer__links">
+        <a href="#services">Услуги</a>
+        <a href="#booking">Записаться</a>
+        <a href="#contacts">Контакты</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
